@@ -60,7 +60,7 @@ body{
 	position: absolute;
 	top: 50%;
 	left: 40%;
-	margin-top: -100px;
+	margin-top: -200px;
 	backdrop-filter:  blur(2px);
 	-webkit-backdrop-filter: saturate(180%) blur(20px);
 	-webkit-background-size: cover;
@@ -73,8 +73,8 @@ body{
 h1 {
   font-family: "futura-pt",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3";
   font-weight: bold;
-  font-size: 25px;
-  margin: 12px 0;
+  font-size: 36px;
+  margin: 10px 0;
   left: 4px;
 }
 
@@ -110,8 +110,7 @@ h3 {
 	color:#444444;
 	font-weight: 100;
 	font-size: 1.2em;
-  word-spacing: 150px;
-
+    word-spacing: 150px;
 }
 .navigater-list>a{
 	padding: 25px 20px 25px 20px;
