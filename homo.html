@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Yonglei's Personal Website</title>
+		<link rel="stylesheet" href="assets/css/homo.css">
+		<link rel="icon" href="assets/img/sisyphus.jpg">
+	</head>
+
+    <body>
+
+		<header id="header">
+			<div class="item_active">
+				<img id="carousel-img0" class="bg" src="assets/img/bg2.jpg"> Source: <cite>YL.WANG</cite>
+			</div>
+			<script>
+				var img0 = new Image();
+				var imageTag0 = document.getElementById("carousel-img0");
+				img0.src = imageTag0.src;
+				img0.onload=function(){
+					if (img0.width / img0.height <= document.body.clientWidth / document.body.clientHeight) {
+						imageTag0.style.width = document.body.clientWidth + "px";
+					} else {
+						imageTag0.style.height = document.body.clientHeight + "px";
+						imageTag0.style.marginLeft = -(document.body.clientHeight * img0.width / img0.height - document.body.clientWidth) / 2 + "px";
+					}
+				};
+			</script>
+
+
+			<div class="home" class="home">
+				<div class="homelogobackup">
+					<h1 style="font-size:10vw><a href="#content" id="logo">
+						<font color="white">Yong-Lei WANG</font></a></h1>
+					<h3><a href="#content" id="logo">
+						<font color="white">Comput. Scientist | Software</font></h3>
+				</div>
+				<h2><font color="white"><a href="https://www.su.se/department-of-materials-and-environmental-chemistry/">
+					<font color="white">Stockholm University</font></a></font></h2>
+				<h2><font color="white"><a href="https://www.ltu.se/research/subjects/Energiteknik?l=en">
+					<font color="white">Luleå University of Technology</font></a></font></h2>
+			</div>
+
+			<div class="intro-navigate">
+				<p class="navigater-list" style="font-family:Microsoft YaHei;">
+					<a id="beautifont" class="main-nav-link" href="home.html">Hοme</a>
+					<a id="beautifont" class="main-nav-link" href="project.html">Project</a>
+					<a id="beautifont" class="main-nav-link" href="pub.html">Publication</a>
+					<a id="beautifont" class="main-nav-link" href="https://github.com/code4yonglei">Github</a>
+				</p>
+			</div>
+		</header>
+
+
+
+
+
+		<div class="outer">
+			<div class="article-entry">
+
+				<font size=12, color="black">
+				<h1>
+					<a class="headerlink"></a>
+					<center> Welcome to YL's Personal Page! </center>
+				</h1>
+				
+				<font size=1, color="white">
+				<center> empty space </center>
+				
+				<font size=6, color="red">
+					<a class="headerlink"></a>Profile
+				
+				<font size=4, color="black">
+				<ul>
+					<li>A <strong>junior software developer</strong>, developing numerical algorithms and professional software using:
+						<ul>
+							<li>Fortran</li>
+							<li>C/C++</li>
+							<li>Python</li>
+						</ul>
+					</li>
+					<li>A <strong>professional computational scientist</strong>, holding a Ph. D. degree in Physical Chemistry and working on the interface of theoretical chemistry, computational physics, and materials science to support characterization, discovery and design of functional materials <em>via</em> multiscale modelling assisted with machine learning approaches.</li>
+					<li>A <strong>self-motivated and passionate team player</strong>, being active and flexible in collaborative projects and have a high efficiency for the management of individial tasks.</li>
+				</ul>
+
+				<font size=1, color="white">
+					<center> empty space </center>
+
+				<font size=6, color="blue">
+					<a class="headerlink"></a>Research Projects
+
+				<font size=4, color="black">
+				<ul>
+					<li>SU-LTU, <a target="_blank" rel="noopener" href="https://www.su.se/english/profiles/yonwa-1.187344">Vegetable Varieties for Gardeners</a>. (2020). Supervisor: Prof. <a target="_blank" rel="noopener" href="https://www.su.se/english/profiles/yonwa-1.187344">WANG</a>.</li>
+				</ul>
+				<div align="center">
+				 <!-- Source: https://www.biorxiv.org/content/biorxiv/early/2020/07/26/2020.07.24.206888/F3.medium.gif -->
+					<img src="css/img/research2.jpeg" width="500" > <!--height="200"  -->
+				 <!-- Source: <cite><a href="https://www.biorxiv.org/content/biorxiv/early/2020/07/26/2020.07.24.206888/F3.medium.gif">Biorxiv</a></cite> -->
+				</div>
+
+				<ul>
+					<li><u>2021.01-2021.12 HZB. Supervisor: Prof. 
+						<a target="_blank" rel="noopener" href="https://www.su.se/english/profiles/yonwa-1.187344">YL</a>.
+					</li>
+				</ul>
+				<div align="center">
+					<img src="assets/img/research3.jpeg" height="200" width="500" >
+				</div>
+
+				<ul>
+					<li><u>2016.09-2018.09 Stanford U.</u></li>
+				</ul>
+
+				<ul>
+					<li><u>2013.10-2016.08 SU/KTH.</u></li>
+				</ul>
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<p> &copy; 2023 Yonglei Wang, All Rights Reserved.</p>
+					<p> <a target="_blank" rel="noopener" href="https://www.su.se/english/profiles/yonwa-1.187344">My webpage @ Stockholm University</a> | <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/yonglei-wang-287469236/">My LinkedIn </a> |  <a target="_blank" rel="noopener" href="mailto:wangyonl@gmail.com">E-mail me</a> </p>
+				</div>
+		</footer>
+
+	</body>
+
+</html>
