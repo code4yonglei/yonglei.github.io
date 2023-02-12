@@ -2277,7 +2277,8 @@ document.addEventListener('DOMContentLoaded', function () {
 var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
-        var a = new Array("CalvinHaynes","Guitar","Hugo","CSAPP","Java","Python");        var $i = $("<span />").text(a[a_idx]);
+        var a = new Array("BlackJack","Programming","C/C++","Python","Fortran","Julia");
+		var $i = $("<span />").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,
         y = e.pageY;
